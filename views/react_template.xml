@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-    <menuitem  id="react_testing" name="REACT"/>
-
+    <template id="project_portal_template" inherit_id="portal.portal_my_home" name="Project Portal with React">
+        <xpath expr="//div[@class='o_portal_my_home']" position="inside">
+            <div id="react-container"></div>
+        </xpath>
+    </template>
 </odoo>
-
 
