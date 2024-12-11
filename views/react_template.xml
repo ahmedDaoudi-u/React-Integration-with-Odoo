@@ -2,6 +2,7 @@
     <template id="project_portal_template" inherit_id="portal.portal_my_home" name="Project Portal with React">
         <xpath expr="//div[@class='o_portal_my_home']" position="inside">
             <div id="react-container"></div>
+            <script type="module" src="/react_test/static/src/js/dist/bundle.js"/>
         </xpath>
     </template>
 </odoo>
